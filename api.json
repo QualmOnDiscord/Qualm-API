@@ -1,5 +1,7 @@
 {
-    "Cosmetics": [
-        "BK7AkPM.png|Default To Rue"
-    ]
+    "Cosmetics": {
+        "Skins": [
+            "BK7AkPM.png|Default To Rue"
+        ]   
+    }
 }
