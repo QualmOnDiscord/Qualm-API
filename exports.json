@@ -5,7 +5,7 @@
         "Version": "1.1",
         "link": "https://cdn.discordapp.com/attachments/855743162828062722/855762353656299530/Qualm_Swapper_Installer_V2.exe|Qualm_Swapper_Installer_V2.exe"
     },
-    "Cosmetics": [
+    "items": [
         {
             "Type": "Skins",
             "SwapsFrom": "Blaze",
