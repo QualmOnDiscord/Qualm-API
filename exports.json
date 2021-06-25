@@ -1,0 +1,22 @@
+{
+    "Status": {
+        "SwapperStatus": "online",
+        "offlineReason": "",
+        "Version": "1.1",
+        "link": "https://cdn.discordapp.com/attachments/855743162828062722/855762353656299530/Qualm_Swapper_Installer_V2.exe|Qualm_Swapper_Installer_V2.exe"
+    },
+    "Cosmetics": [
+        {
+            "Type": "Skin",
+            "SwapAmount": "1",
+            "UassetPathSearch1": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderFire.uasset",
+            "UassetPathReplace1": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_028_Athena_Body.uasset",
+            "SwapToIcon": "L1noxZv.png",
+            "SwapFromIcon": "iO371k1.png",
+            "Name": "Renegade Raider (Blaze)",
+            "Note": "",
+            "Disabled": "False",
+            "SwapType": ""
+        }
+    ]
+}
