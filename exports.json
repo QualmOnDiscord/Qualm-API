@@ -9,8 +9,8 @@
         {
             "Type": "Skin",
             "SwapAmount": "1",
-            "UassetPathSearch1": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderFire.uasset|CP_Athena_Body_F_RenegadeRaiderFire.uasset",
-            "UassetPathReplace1": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_028_Athena_Body.uasset|CP_028_Athena_Body.uasset",
+            "UassetPathSearch1": "https://cdn.discordapp.com/attachments/853982717934698518/858076564083048458/CP_Athena_Body_F_RenegadeRaiderFire.uasset|CP_Athena_Body_F_RenegadeRaiderFire.uasset",
+            "UassetPathReplace1": "https://cdn.discordapp.com/attachments/853982717934698518/858076562645188648/CP_028_Athena_Body.uasset|CP_028_Athena_Body.uasset",
             "SwapToIcon": "https://fortnite-api.com/images/cosmetics/br/cid_028_athena_commando_f/icon.png",
             "SwapFromIcon": "https://fortnite-api.com/images/cosmetics/br/cid_784_athena_commando_f_renegaderaiderfire/icon.png",
             "Name": "Renegade Raider (Blaze)",
