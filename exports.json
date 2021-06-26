@@ -8,31 +8,26 @@
     "items": [
         {
             "Type": "Skins",
-            "SwapsFrom": "Blaze",
-            "SwapsTo": "Renegade Raider (Blaze)",
-            "FromImage": "wr9GABO.png",
-            "ToImage": "r0pvItl.png",
-            "Note": "",
+            "SwapsFrom": "Assault Trooper",
+            "SwapsTo": "Rose Team Leader",
+            "FromImage": "zmpyc8x.png",
+            "ToImage": "6JYSBVJ.png",
+            "Note": "Does not have hat",
             "Asset": [
-                {
-                    "Search":[
-                        "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Body",
-                        "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Body.MI_F_MED_Renegade_Raider_Fire_Body",
-                        "/Game/Effects/Fort_Effects/Effects/Characters/Athena_Parts/RenegadeRaider_Fire/NS_RenegadeRaider_Fire",
-                        "/Game/Effects/Fort_Effects/Effects/Characters/Athena_Parts/RenegadeRaider_Fire/NS_RenegadeRaider_Fire.NS_RenegadeRaider_Fire",
-                        "/Game/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_RenegadeRaider_Fire",
-                        "/Game/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_RenegadeRaider_Fire.B_Athena_PartModifier_RenegadeRaider_Fire_C"],
-                    "Replace":[
-                        "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_20/Materials/F_MED_Commando_Body_TV20",
-                        "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_20/Materials/F_MED_Commando_Body_TV20.F_MED_Commando_Body_TV20",
-                        "/0000/Effects/Fort_Effects/Effects/Characters/Athena_Parts/RenegadeRaider_Fire/NS_RenegadeRaider_Fire",
-                        "/0000/Effects/Fort_Effects/Effects/Characters/Athena_Parts/RenegadeRaider_Fire/NS_RenegadeRaider_Fire.NS_RenegadeRaider_Fire"
-                        ,"/0000/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_RenegadeRaider_Fire",
-                        "/0000/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_RenegadeRaider_Fire.B_Athena_PartModifier_RenegadeRaider_Fire_C"],
-                    "AssetPath":"/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderFire",
-                    "UcasFile":"pakchunk10_s4-WindowsClient.ucas"}
+              {
+                "Search": [
+                  "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_19/Materials/F_MED_Commando_Body_TV19",
+                  "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_19/Materials/F_MED_Commando_Body_TV19.F_MED_Commando_Body_TV19"
                 ],
-                    "ShowMain":false
-                }
+                "Replace": [
+                  "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_11/Materials/F_MED_Commando_Body_TV11",
+                  "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_11/Materials/F_MED_Commando_Body_TV11.F_MED_Commando_Body_TV11"
+                ],
+                "AssetPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_015_Athena_Body",
+                "UcasFile": "pakchunk10_s4-WindowsClient.ucas",
+                "BothHave": "CP_015__Body"
+              }
+            ]
+          }
             ]
         }
