@@ -1,4 +1,5 @@
 {
+    "aes": "0x008F96D1CFC625479995F4ED584ACBE709C1F88E7417DAEBFB192C767F7AC84D",
     "Status": {
         "SwapperStatus": "online",
         "offlineReason": "",
