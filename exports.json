@@ -5,7 +5,7 @@
       "Type": "Skin",
       "SwapTo": "https://fortnite-api.com/images/cosmetics/br/cid_028_athena_commando_f/icon.png",
       "SwapFrom": "https://fortnite-api.com/images/cosmetics/br/cid_784_athena_commando_f_renegaderaiderfire/icon.png",
-      "Files": "3",
+      "Files": "1",
      "File1": {
       "AssetPath": "CP_Athena_Body_F_RenegadeRaiderFire.uasset",
       "File": "blazepak",
