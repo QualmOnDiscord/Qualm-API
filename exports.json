@@ -5,7 +5,8 @@
       "Type": "Skin",
       "SwapTo": "https://fortnite-api.com/images/cosmetics/br/cid_028_athena_commando_f/icon.png",
       "SwapFrom": "https://fortnite-api.com/images/cosmetics/br/cid_784_athena_commando_f_renegaderaiderfire/icon.png",
-      "AssetPath": "CP_Athena_Body_F_RenegadeRaiderFire.uasset",
+      "ReplaceAmount": "1",
+      "AssetPath1": "CP_Athena_Body_F_RenegadeRaiderFire.uasset",
       "File1": "blazepak",
       "Replaces1": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Body.MI_F_MED_Renegade_Raider_Fire_Body|/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/TV_20/Materials/F_MED_Commando_Body_TV20.F_MED_Commando_Body_TV20"
     }
