@@ -587,6 +587,24 @@
               "/Game/Animation/Game/MainPlayer/Emotes/Candy_Dance/Emote_Candy_Dance_CMM_M.Emote_Candy_Dance_CMM_M",
               "/Game/Animation/Game/MainPlayer/Emotes/Candy_Dance/Emote_Candy_Dance_CMF_M.Emote_Candy_Dance_CMF_M"
             ] 
+          },
+          {
+            "name":"S17 Background To Default Background",
+            "icon": "https://cdn.discordapp.com/attachments/834171473617879061/843224481475985418/Og_lobby.png",
+            "swapicon":"https://cdn.discordapp.com/attachments/834171473617879061/841110140626403378/asfasfasf.png",
+            "itemtype":"misc",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Balance/DefaultGameDataCommon",
+            "uassetsearch1":"lobbysearch",
+            "uassetpak1":"lobbypak",
+            "uassetoffset1":"lobbyoffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Maps/UI/Frontend_Lobby_Background.Frontend_Lobby_Background"
+            ],
+            "uasset1Replace": [
+              "/Game/Maps/UI/Frontend_Lobby_Default.Frontend_Lobby_Default"
+            ] 
           }
     ]
 }
