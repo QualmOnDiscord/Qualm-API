@@ -1041,8 +1041,8 @@
             ]
         },
         {
-            "name": "Default To Bachii",
-            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_471_athena_commando_f_bani/icon.png",
+            "name": "Default To Cozy Commander",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_652_athena_commando_f_holidaypj_d/icon.png",
             "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
             "itemtype": "skin",
             "itemperfect": "perfect",
@@ -1055,8 +1055,90 @@
                 "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
             ],
             "uasset1Replace": [
-                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_Bani.CP_Body_Commando_F_Bani",
-                "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_Bani.CP_F_MED_Bani"
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_HolidayPJ.CP_Body_Commando_F_HolidayPJ",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_HolidayPJ_D.CP_Head_F_HolidayPJ_D"
+            ],
+            "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+            "uassetsearch2": "defaultsearch2",
+            "uassetoffset2": "defaultoffset2",
+            "uassetpak2": "defaultpak",
+            "uasset2Search": [
+              "\"CP_Body_Commando_F_RebirthDefaultA"
+            ],
+            "uasset2Replace": [
+              "\"CP_Body_Commando_F_RebirthDefault0"
+            ],
+            "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+            "uassetsearch3": "defaultsearch3",
+            "uassetoffset3": "defaultoffset3",
+            "uassetpak3": "defaultpak",
+            "uasset3Search": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+              "CP_Athena_Body_M_RebirthSoldier"
+            ],
+            "uasset3Replace": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+              "CP_Athena_Body_M_RebirthSold1er"
+            ]
+        },
+        {
+            "name": "Default To Scarlet Commander",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_734_athena_commando_f_bannerred/icon.png",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+            "itemtype": "skin",
+            "itemperfect": "perfect",
+            "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+            "uassetsearch1": "defaultsearch1",
+            "uassetpak1": "defaultpak",
+            "uassetoffset1": "defaultoffset1",
+            "uasset1Search": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+            ],
+            "uasset1Replace": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_BannerRed.CP_Body_Commando_F_BannerRed",
+                "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_BannerRed.CP_F_MED_BannerRed"
+            ],
+            "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+            "uassetsearch2": "defaultsearch2",
+            "uassetoffset2": "defaultoffset2",
+            "uassetpak2": "defaultpak",
+            "uasset2Search": [
+              "\"CP_Body_Commando_F_RebirthDefaultA"
+            ],
+            "uasset2Replace": [
+              "\"CP_Body_Commando_F_RebirthDefault0"
+            ],
+            "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+            "uassetsearch3": "defaultsearch3",
+            "uassetoffset3": "defaultoffset3",
+            "uassetpak3": "defaultpak",
+            "uasset3Search": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+              "CP_Athena_Body_M_RebirthSoldier"
+            ],
+            "uasset3Replace": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+              "CP_Athena_Body_M_RebirthSold1er"
+            ]
+        },
+        {
+            "name": "Default To Mogul Master (GER)",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_066_athena_commando_f_skigirl_ger/icon.png",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+            "itemtype": "skin",
+            "itemperfect": "perfect",
+            "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+            "uassetsearch1": "defaultsearch1",
+            "uassetpak1": "defaultpak",
+            "uassetoffset1": "defaultoffset1",
+            "uasset1Search": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+            ],
+            "uasset1Replace": [
+                "/Game/Characters/CharacterParts/Female/Medium/Bodies/F_Med_Soldier_BR42_GER.F_Med_Soldier_BR42_GER",
+                "/Game/Athena/Heroes/Meshes/Heads/F_Med_Soldier_SkiMask_01_ATH_GER.F_Med_Soldier_SkiMask_01_ATH_GER"
             ],
             "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
             "uassetsearch2": "defaultsearch2",
