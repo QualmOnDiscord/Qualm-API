@@ -1162,6 +1162,26 @@
               "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
               "CP_Athena_Body_M_RebirthSold1er"
             ]
-        }
+        },
+        {
+            "name":"Mystique's Skull To Black Shield",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/bid_004_blackknight/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/bid_595_hightowermango/icon.png",
+            "itemtype":"backbling",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Characters/CharacterParts/Backpacks/CP_Backpack_HightowerMango",
+            "uassetsearch1":"MystiqueSkullsearch",
+            "uassetpak1":"MystiqueSkullpak",
+            "uassetoffset1":"MystiqueSkulloffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Accessories/FORT_Backpacks/Backpack_F_MED_HighTower_Mango/Meshes/F_MED_HighTower_Mango_Pack.F_MED_HighTower_Mango_Pack",
+                "/Game/Accessories/FORT_Backpacks/Backpack_F_MED_HighTower_Mango/FX/CCPM_Backpack_HighTower_Mango.CCPM_Backpack_HighTower_Mango_C"
+            ],
+            "uasset1Replace": [
+              "/Game/Accessories/FORT_Backpacks/Mesh/SK_Shield_Blackknight.SK_Shield_Blackknight",
+              "/Game/__________________________________________________________________________________________________________________________"
+            ] 
+          }
     ]
 }
