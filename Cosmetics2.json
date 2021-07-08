@@ -2,7 +2,7 @@
     "Cosmetics": [
         {
             
-                "name":"Blaze To Galaxy Renegade Raider2",
+                "name":"Blaze To Galaxy Renegade Raider",
                 "icon":"https://cdn.discordapp.com/attachments/795088364771868795/833560257720614962/Galaxy_renegade-removebg-preview.png",
                 "swapicon":"https://cdn.discordapp.com/attachments/846121669813862450/846686030451179570/icon.png",
                 "itemtype":"skin",
@@ -607,7 +607,7 @@
             ] 
           },
           {
-              "name": "Default To Black Knight2",
+              "name": "Default To Black Knight",
               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_035_athena_commando_m_medieval/icon.png",
               "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
               "itemtype": "skin",
@@ -646,6 +646,112 @@
                 "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
                 "CP_Athena_Body_M_RebirthSold1er"
               ]
-          }
+          },
+          {
+            "name": "Default To Sparkle Specialist",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_039_athena_commando_f_disco/icon.png",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+            "itemtype": "skin",
+            "itemperfect": "perfect",
+            "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+            "uassetsearch1": "defaultsearch1",
+            "uassetpak1": "defaultpak",
+            "uassetoffset1": "defaultoffset1",
+            "uasset1Search": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+            ],
+            "uasset1Replace": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_SparkleRemix.CP_Body_Commando_F_SparkleRemix",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_SparkleRemix.CP_Head_F_SparkleRemix"
+            ],
+            "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+            "uassetsearch2": "defaultsearch2",
+            "uassetoffset2": "defaultoffset2",
+            "uassetpak2": "defaultpak",
+            "uasset2Search": [
+              "\"CP_Body_Commando_F_RebirthDefaultA"
+            ],
+            "uasset2Replace": [
+              "\"CP_Body_Commando_F_RebirthDefault0"
+            ],
+            "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+            "uassetsearch3": "defaultsearch3",
+            "uassetoffset3": "defaultoffset3",
+            "uassetpak3": "defaultpak",
+            "uasset3Search": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+              "CP_Athena_Body_M_RebirthSoldier"
+            ],
+            "uasset3Replace": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+              "CP_Athena_Body_M_RebirthSold1er"
+            ]
+        },
+        {
+            "name": "Default To Pink Ghoul Trooper",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_039_athena_commando_f_disco/icon.png",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+            "itemtype": "skin",
+            "itemperfect": "perfect",
+            "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+            "uassetsearch1": "defaultsearch1",
+            "uassetpak1": "defaultpak",
+            "uassetoffset1": "defaultoffset1",
+            "uasset1Search": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+            ],
+            "uasset1Replace": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_124_Body_F_AuroraGlow.CP_124_Body_F_AuroraGlow",
+                "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_AuroraGlow.CP_Head_F_AuroraGlow"
+            ],
+            "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+            "uassetsearch2": "defaultsearch2",
+            "uassetoffset2": "defaultoffset2",
+            "uassetpak2": "defaultpak",
+            "uasset2Search": [
+              "\"CP_Body_Commando_F_RebirthDefaultA"
+            ],
+            "uasset2Replace": [
+              "\"CP_Body_Commando_F_RebirthDefault0"
+            ],
+            "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+            "uassetsearch3": "defaultsearch3",
+            "uassetoffset3": "defaultoffset3",
+            "uassetpak3": "defaultpak",
+            "uasset3Search": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+              "CP_Athena_Body_M_RebirthSoldier"
+            ],
+            "uasset3Replace": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+              "CP_Athena_Body_M_RebirthSold1er"
+            ],
+            "uasset4": "/Game/Athena/Heroes/Meshes/Bodies/CP_124_Body_F_AuroraGlow",
+            "uassetsearch4": "nitelitebodysearch",
+            "uassetoffset4": "nitelitebodyoffset",
+            "uassetpak4": "nitelitebodypak",
+            "uasset4Search": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/Aurora_Glow/Materials/M_F_Med_Soldier_01_AuroraGlow.M_F_Med_Soldier_01_AuroraGlow"
+            ],
+            "uasset4Replace": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/F_MED_Zombie_Pink/Materials/F_MED_Zombie_Pink_Body.F_MED_Zombie_Pink_Body"
+            ],
+            "uasset5": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_AuroraGlow",
+            "uassetsearch5": "niteliteheadsearch",
+            "uassetoffset5": "niteliteheadoffset",
+            "uassetpak5": "niteliteheadpak",
+            "uasset5Search": [
+              "/Game/Characters/CharacterColorSwatches/Skin/F_BLK_Luna.F_BLK_Luna",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/Aurora_Glow/Materials/F_MED_Commando_Head_01_AuroraGlow.F_MED_Commando_Head_01_AuroraGlow",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/Aurora_Glow/Materials/F_MED_Commando_Hair_01_AuroraGlow.F_MED_Commando_Hair_01_AuroraGlow"
+            ],
+            "uasset5Replace": [
+              "/Game/Characters/CharacterColorSwatches/Skin/F_LRG_CAU.F_LRG_CAU",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/F_MED_Zombie_Pink/Materials/F_MED_Ramirez_Zombie_Pink_Head.F_MED_Ramirez_Zombie_Pink_Head",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Skins/F_MED_Zombie_Pink/Materials/F_MED_Ramirez_Zombie_Pink_Hair.F_MED_Ramirez_Zombie_Pink_Hair"
+            ]
+        }
     ]
 }
