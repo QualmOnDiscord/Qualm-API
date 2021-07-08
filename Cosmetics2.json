@@ -605,6 +605,49 @@
             "uasset1Replace": [
               "/Game/Maps/UI/Frontend_Lobby_Default.Frontend_Lobby_Default"
             ] 
+          },
+          {
+              "name": "Default To Black Knight",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/cid_035_athena_commando_m_medieval/icon.png",
+              "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+              "itemtype": "skin",
+              "itemperfect": "perfect",
+              "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+              "uassetsearch1": "defaultsearch1",
+              "uassetpak1": "defaultpak",
+              "uassetoffset1": "defaultoffset1",
+              "uasset1Search": [
+                  "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+                  "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+              ],
+              "uasset1Replace": [
+                  "/Game/Athena/Heroes/Meshes/Bodies/CP_commando_KnightB_M.CP_commando_KnightB_M",
+                  "/Game/Characters/CharacterParts/Hats/Hat_M_Commando_BlackKnight.Hat_M_Commando_BlackKnight"
+              ],
+              "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+              "uassetsearch2": "defaultsearch2",
+              "uassetoffset2": "defaultoffset2",
+              "uassetpak2": "defaultpak",
+              "uasset2Search": [
+                "\"CP_Body_Commando_F_RebirthDefaultA"
+              ],
+              "uasset2Replace": [
+                "\"CP_Body_Commando_F_RebirthDefault0"
+              ],
+              "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+              "uassetsearch3": "defaultsearch3",
+              "uassetoffset3": "defaultoffset3",
+              "uassetpak3": "defaultpak",
+              "uasset3Search": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+                "CP_Athena_Body_M_RebirthSoldier",
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5"
+              ],
+              "uasset3Replace": [
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+                "CP_Athena_Body_M_RebirthSold1er",
+                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier"
+              ]
           }
     ]
 }
