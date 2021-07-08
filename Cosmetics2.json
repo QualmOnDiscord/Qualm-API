@@ -607,7 +607,7 @@
             ] 
           },
           {
-              "name": "Default To Black Knight",
+              "name": "Default To Black Knight2",
               "icon": "https://fortnite-api.com/images/cosmetics/br/cid_035_athena_commando_m_medieval/icon.png",
               "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
               "itemtype": "skin",
@@ -640,13 +640,11 @@
               "uassetpak3": "defaultpak",
               "uasset3Search": [
                 "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
-                "CP_Athena_Body_M_RebirthSoldier",
-                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5"
+                "CP_Athena_Body_M_RebirthSoldier"
               ],
               "uasset3Replace": [
                 "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
-                "CP_Athena_Body_M_RebirthSold1er",
-                "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier"
+                "CP_Athena_Body_M_RebirthSold1er"
               ]
           }
     ]
