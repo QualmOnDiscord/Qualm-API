@@ -1,1 +1,592 @@
-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
+{
+    "Cosmetics": [
+        {
+            
+                "name":"Blaze To Galaxy Renegade Raider2",
+                "icon":"https://cdn.discordapp.com/attachments/795088364771868795/833560257720614962/Galaxy_renegade-removebg-preview.png",
+                "swapicon":"https://cdn.discordapp.com/attachments/846121669813862450/846686030451179570/icon.png",
+                "itemtype":"skin",
+                "itemperfect":"perfect",
+                "uasset1":"/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_RenegadeRaiderFire",
+                "uassetsearch1":"BlazeBodysearch",
+                "uassetpak1":"BlazeBodypak",
+                "uassetoffset1":"BlazeBodyoffset",
+                "uasset1Search": [
+                    "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Body.MI_F_MED_Renegade_Raider_Fire_Body",
+                    "/Game/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_RenegadeRaider_Fire.B_Athena_PartModifier_RenegadeRaider_Fire_C",
+                    "/Game/Effects/Fort_Effects/Effects/Characters/Athena_Parts/RenegadeRaider_Fire/NS_RenegadeRaider_Fire.NS_RenegadeRaider_Fire"
+                ],
+                "uasset1Replace": [
+                    "/Game/Weapons/FORT_Melee/Materials/MI_FORT_Melee_Pick_Celestial.MI_FORT_Melee_Pick_Celestial",
+                    "/Game/Athena/Cosmetics/Blueprints/Part_Modifiers/B_Athena_PartModifier_Celeste_Loop.B_Athena_PartModifier_Celeste_Loop_C",
+                    "/Game/Effects/Fort_Effects/Effects/Characters/Athena_Parts/P_Celeste_LoopingFX.P_Celeste_LoopingFX"
+                ],
+
+                "uasset2":"/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RenegadeRaiderFire",
+                "uassetsearch2":"BlazeHeadsearch",
+                "uassetpak2":"BlazeHeadpak",
+
+                "uasset2Search": [
+                    "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Head.MI_F_MED_Renegade_Raider_Fire_Head",
+                    "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_Hair.MI_F_MED_Renegade_Raider_Fire_Hair"
+                ],
+                "uasset2Replace": [
+                    "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/Galaxy/Materials/M_MED_HIS_Sparks_Head_Celestial.M_MED_HIS_Sparks_Head_Celestial",
+                    "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/Galaxy/Materials/M_MED_HIS_Sparks_Hair_Celestial.M_MED_HIS_Sparks_Hair_Celestial"
+                ],
+
+                "uassetoffset2":"BlazeHeadoffset",
+                "uasset3":"/Game/Characters/CharacterParts/Hats/CP_Hat_F_Commando_RenegadeRaiderFire",
+                "uassetpak3":"BlazeHatpak",
+                "uassetsearch3":"BlazeHatsearch",
+                "uassetoffset3":"BlazeHatoffset",
+                "uasset3Search": [
+                    "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Renegade_Raider_Fire/Materials/MI_F_MED_Renegade_Raider_Fire_FaceAcc.MI_F_MED_Renegade_Raider_Fire_FaceAcc"
+                ],
+                "uasset3Replace": [
+                    "/Game/Weapons/FORT_Melee/Materials/MI_FORT_Melee_Pick_Celestial.MI_FORT_Melee_Pick_Celestial"
+                ]
+             
+        },
+        {
+            "name": "Boogie Down To Pump Up The Jam",
+            "itemtype": "emote",
+            "itemperfect": "perfect",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "icon":" https://fortnite-api.com/images/cosmetics/br/eid_deflated_6poaz/icon.png",
+            "uasset1": "/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1": "BoogieDownsearch",
+            "uassetpak1": "BoogieDownPak",
+            "uassetoffset1": "BoogieDownOffset",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Deflated/Emote_Deflated_CMM_M.Emote_Deflated_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Deflated/Emote_Deflated_CMF_M.Emote_Deflated_CMF_M"
+            ]
+        },
+        {
+            "name":"Boogie Down To Groove Jam",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_groovejam/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+              "/Game/Animation/Game/MainPlayer/Emotes/GrooveJam/Emote_GrooveJam_CMF_M.Emote_GrooveJam_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Scenario",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_kpopdance03/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/KPop_Dance03/Emote_KPOP_Dance03_M.Emote_KPOP_Dance03_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/KPop_Dance03/Emote_KPOP_Dance03_M.Emote_KPOP_Dance03_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To The Renegade",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_justhome/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/JustHome/Emote_JustHome_CMM_M.Emote_JustHome_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/JustHome/Emote_JustHome_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Out West",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_julybooks/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/JulyBooks/Emote_JulyBooks_CMM_M.Emote_JulyBooks_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/JulyBooks/Emote_JulyBooks_CMF_M.Emote_JulyBooks_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Lazer Blast",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_lasagnadance/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/LazerDance/Emote_LazerDance_CMM_M.Emote_LazerDance_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/LazerDance/Emote_LazerDance_CMF_M.Emote_LazerDance_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Its Complicated",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_richfam/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/RichFam/Emote_RichFam_CMM_M.Emote_RichFam_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/RichFam/Emote_RichFam_CMF_M.Emote_RichFam_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Bhangra Boogie",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bollywood/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Bhangra/emote_bhangra_CMM_M.emote_bhangra_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Bhangra/emote_bhangra_CMF_M.emote_bhangra_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Crazyboy",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_kingeagle/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/KingEagle/Emote_KingEagle_CMM_M.Emote_KingEagle_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/KingEagle/Emote_KingEagle_CMF_M.Emote_KingEagle_CMF_M"
+            ]
+          },
+          
+          {
+            "name":"Boogie Down To Freewheelin'",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_triplescoop/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/TripleScoop/Emote_TripleScoop_CMF_M.Emote_TripleScoop_CMF_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/TripleScoop/Emote_TripleScoop_CMF_M.Emote_TripleScoop_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Daydream",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hilowwave/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/HiLoWave/Emote_HiLowWave_CMM_M.Emote_HiLowWave_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/HiLoWave/Emote_HiLowWave_CMF_M.Emote_HiLowWave_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Laugh it up",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_laugh/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Laugh/Emote_Laugh_CMM_M.Emote_Laugh_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Laugh/Emote_Laugh_CMF_M.Emote_Laugh_CMF_M"
+            ]
+          },
+          {
+            "name":"Boogie Down To Vivacious",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_everytime/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Dancing_Girl/Emote_Dancing_Girl_CMF.Emote_Dancing_Girl_CMF",
+              "/Game/Animation/Game/MainPlayer/Emotes/Dancing_Girl/Emote_Dancing_Girl_CMF.Emote_Dancing_Girl_CMF"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Say So",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hotpink/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/HotPink/Emote_HotPink_CMM_M.Emote_HotPink_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/HotPink/Emote_HotPink_CMF_M.Emote_HotPink_CMF_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Last Forever",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_twisteternity/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/TwistEternity/TwistEternity_Ayo_CMM_M.TwistEternity_Ayo_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/TwistEternity/TwistEternity_Ayo_CMF_M.TwistEternity_Ayo_CMF_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Breakin'",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_breakdance/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_Breakdance_M1.Emote_Breakdance_M1",
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_Breakdance_M1.Emote_Breakdance_M1"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Chicken",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_chicken/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Chicken/Emote_Chicken_CMM_M.Emote_Chicken_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Chicken/Emote_Chicken_CMM_M.Emote_Chicken_CMM_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Floss",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_floss/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_FlossDance_M.Emote_FlossDance_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_FlossDance_M.Emote_FlossDance_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Fresh",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_fresh/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Fresh/Emote_Fresh_M.Emote_Fresh_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Fresh/Emote_Fresh_CMF_M.Emote_Fresh_CMF_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Rocket Spinner",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_fireworksspin/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/PinWheelSpin_Montage.PinWheelSpin_Montage",
+              "/Game/Animation/Game/MainPlayer/Emotes/PinWheelSpin_Montage.PinWheelSpin_Montage"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Orange Justice",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_goodvibes/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Mask_Off/Emote_Mask_Off_CMM.Emote_Mask_Off_CMM",
+              "/Game/Animation/Game/MainPlayer/Emotes/Mask_Off/Emote_Mask_Off_CMF.Emote_Mask_Off_CMF"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Flapper",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_flapper/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_Charleston_M.Emote_Charleston_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Emote_Charleston_M.Emote_Charleston_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Breakdown",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hiphops5/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Hip_Hop/Emote_Hip_Hop_CMM_M.Emote_Hip_Hop_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Hip_Hop/Emote_Hip_Hop_CMF_M.Emote_Hip_Hop_CMF_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Freestylin'",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hiphop01/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/HipHop_01/Emote_Hiphop_01_CMM_M.Emote_Hiphop_01_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/HipHop_01/Emote_Hiphop_01_CMF_M.Emote_Hiphop_01_CMF_M"
+            ] 
+          },
+          {
+            "name":"Boogie Down To Hula",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hula/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BoogieDownOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Hula/Emote_Hula_CMM_M.Emote_Hula_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Hula/Emote_Hula_CMF_M.Emote_Hula_CMF_M"
+            ] 
+          },
+          {
+            "name":"Blowing Bubbles To Where is Matt?",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_whereismatt/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_blowingbubbles/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BlowingBubbles",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BlowingBubblesOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMM_M.Emote_BlowingBubble_CMM_M",
+                "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMF_M.Emote_BlowingBubble_CMF_M"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Wheres_Matt/emote_wheres_matt_CMM_M.emote_wheres_matt_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Wheres_Matt/emote_wheres_matt_CMM_M.emote_wheres_matt_CMM_M"
+            ] 
+          },
+          {
+            "name":"Blowing Bubbles To Sugar Rush",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/eid_candydance/icon.png",
+            "swapicon":"https://fortnite-api.com/images/cosmetics/br/eid_blowingbubbles/icon.png",
+            "itemtype":"emote",
+            "itemperfect":"perfect",
+            "uasset1":"/Game/Athena/Items/Cosmetics/Dances/EID_BlowingBubbles",
+            "uassetsearch1":"BoogieDownsearch",
+            "uassetpak1":"BoogieDownPak",
+            "uassetoffset1":"BlowingBubblesOffset",
+            "uassethex1":"",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMM_M.Emote_BlowingBubble_CMM_M",
+                "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMF_M.Emote_BlowingBubble_CMF_M"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/Candy_Dance/Emote_Candy_Dance_CMM_M.Emote_Candy_Dance_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/Candy_Dance/Emote_Candy_Dance_CMF_M.Emote_Candy_Dance_CMF_M"
+            ] 
+          }
+    ]
+}
