@@ -754,6 +754,79 @@
             ]
         },
         {
+          "name": "Default To Purple Skull Trooper",
+          "icon": "https://cdn.fortniteintel.com/wp-content/uploads/2018/10/20112447/T-Variant-M-Grave-OG-Variant-L.png.webp",
+          "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+          "itemtype": "skin",
+          "itemperfect": "perfect",
+          "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+          "uassetsearch1": "defaultsearch1",
+          "uassetpak1": "defaultpak",
+          "uassetoffset1": "defaultoffset1",
+          "uasset1Search": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+              "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+          ],
+          "uasset1Replace": [
+              "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RaiderSilver.CP_Body_Commando_F_RaiderSilver",
+              "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_RaiderSilver.CP_F_MED_RaiderSilver"
+          ],
+          "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+          "uassetsearch2": "defaultsearch2",
+          "uassetoffset2": "defaultoffset2",
+          "uassetpak2": "defaultpak",
+          "uasset2Search": [
+            "\"CP_Body_Commando_F_RebirthDefaultA"
+          ],
+          "uasset2Replace": [
+            "\"CP_Body_Commando_F_RebirthDefault0"
+          ],
+          "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+          "uassetsearch3": "defaultsearch3",
+          "uassetoffset3": "defaultoffset3",
+          "uassetpak3": "defaultpak",
+          "uasset3Search": [
+            "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+            "CP_Athena_Body_M_RebirthSoldier"
+          ],
+          "uasset3Replace": [
+            "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+            "CP_Athena_Body_M_RebirthSold1er"
+          ],
+          "uasset4": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RaiderSilver",
+            "uassetsearch4": "raidersilverbodysearch",
+            "uassetoffset4": "raidersilverbodyoffset",
+            "uassetpak4": "raidersilverbodypak",
+            "uasset4Search": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Meshes/F_MED_Raider_Pink.F_MED_Raider_Pink",
+              "/Game/Characters/Player/Female/Medium/Base/SK_M_Female_Base_Skeleton.SK_M_Female_Base_Skeleton",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Skins/Silver/Materials/F_MED_Raider_Silver_Body.F_MED_Raider_Silver_Body",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Meshes/F_MED_Raider_Pink_AnimBP.F_MED_Raider_Pink_AnimBP_C"
+            ],
+            "uasset4Replace": [
+              "/Game/Characters/Player/Male/Medium/Bodies/M_MED_Dark_Dino/Meshes/M_MED_Dark_Dino.M_MED_Dark_Dino",
+              "/Game/Characters/Player/Male/Medium/Base/SK_M_MALE_Base_Skeleton.SK_M_MALE_Base_Skeleton",
+              "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/HW01_Red/M_Med_Soldier_04_HW01_Red.M_Med_Soldier_04_HW01_Red",
+              "/Game/Characters/Player/Male/Medium/Bodies/M_MED_Dark_Dino/Meshes/M_MED_Dark_Dino_AnimBP.M_MED_Dark_Dino_AnimBP_C"
+            ],
+            "uasset5": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_RaiderSilver",
+            "uassetsearch5": "raidersilverfaceaccsearch",
+            "uassetoffset5": "raidersilverfaceaccoffset",
+            "uassetpak5": "raidersilverfaceaccpak",
+            "uasset5Search": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Meshes/Parts/F_MED_Raider_Pink_FaceAcc.F_MED_Raider_Pink_FaceAcc",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Meshes/Parts/F_MED_Raider_Pink_FaceAcc_AnimBP.F_MED_Raider_Pink_FaceAcc_AnimBP_C",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Skins/Silver/Materials/F_MED_Raider_Silver_Face_Acc.F_MED_Raider_Silver_Face_Acc",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Raider_Pink/Skins/Silver/Materials/F_MED_Raider_Silver_Hair.F_MED_Raider_Silver_Hair"
+            ],
+            "uasset5Replace": [
+              "/Game/Characters/Player/Male/Medium/Bodies/M_MED_Party_Trooper_A/Meshes/Parts/M_MED_Party_Trooper_A.M_MED_Party_Trooper_A",
+              "/Game/Characters/Player/Male/Medium/Bodies/M_MED_Party_Trooper_A/Meshes/Parts/M_MED_Party_Trooper_A_AnimBP.M_MED_Party_Trooper_A_AnimBP_C",
+              "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/HW01_Red/Male_Commando_HW01.Male_Commando_HW01",
+              "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/HW01_Red/Male_Commando_HW01.Male_Commando_HW01"
+            ]
+      },
+        {
             "name": "Default To Dream",
             "icon": "https://fortnite-api.com/images/cosmetics/br/cid_395_athena_commando_f_shatterfly/icon.png",
             "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
