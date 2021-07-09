@@ -1460,6 +1460,47 @@
               "/Game/Accessories/FORT_Backpacks/Mesh/SK_Shield_Blackknight.SK_Shield_Blackknight",
               "/Game/__________________________________________________________________________________________________________________________"
             ] 
+          },
+          {
+            "name": "Jules To Chigusa",
+            "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_048_athena_commando_f_sailorsquadleader/icon.png",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/cid_770_athena_commando_f_mechanicalengineer/icon.png",
+            "itemperfect": "perfect",
+            "itemtype": "skin",
+            "uasset1": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_MechanicalEngineer",
+            "uassetsearch1": "julesbodysearch",
+            "uassetpak1": "julesbodypak",
+            "uassetoffset1": "julesbodyoffset",
+            "uasset1Search": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Mechanical_Engineer/Meshes/F_MED_Mechanical_Engineer.F_MED_Mechanical_Engineer",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Mechanical_Engineer/Meshes/F_MED_Mechanical_Engineer_AnimBP.F_MED_Mechanical_Engineer_AnimBP_C"
+            ],
+            "uasset1Replace": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/F_MED_Sailor_Squad_Leader.F_MED_Sailor_Squad_Leader",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/F_MED_Sailor_Squad_Leader_AnimBP.F_MED_Sailor_Squad_Leader_AnimBP_C"
+            ],
+            "uasset2": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_MechanicalEngineer",
+            "uassetsearch2": "julesheadsearch",
+            "uassetpak2": "julesheadpak",
+            "uassetoffset2": "julesheadoffset",
+            "uasset2Search": [
+              "/Game/Characters/Player/Female/Medium/Heads/F_MED_Mechanical_Engineer_Head_01/Meshes/Female_Medium_Mechanical_Engineer_Head_01.Female_Medium_Mechanical_Engineer_Head_01"
+            ],
+            "uasset2Replace": [
+              "/Game/Characters/Player/Female/Medium/Heads/F_MED_Sailor_Squad_Leader_Head/Meshes/F_MED_Sailor_Squad_Leader_Head.F_MED_Sailor_Squad_Leader_Head"
+            ],
+            "uasset3": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_MechanicalEngineer",
+            "uassetsearch3": "juleshatsearch",
+            "uassetpak3": "juleshatpak",
+            "uassetoffset3": "juleshatoffset",
+            "uasset3Search": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Mechanical_Engineer/Meshes/Parts/F_MED_Mechanical_Engineer_FaceAcc.F_MED_Mechanical_Engineer_FaceAcc",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Mechanical_Engineer/Meshes/Parts/F_MED_Mechanical_Engineer_FaceAcc_AnimBP.F_MED_Mechanical_Engineer_FaceAcc_AnimBP_C"
+            ],
+            "uasset3Replace": [
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/Parts/F_MED_Sailor_Squad_Leader.F_MED_Sailor_Squad_Leader",
+              "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/Parts/F_MED_Sailor_Squad_Leader_AnimBP.F_MED_Sailor_Squad_Leader_AnimBP_C"
+            ]
           }
     ]
 }
