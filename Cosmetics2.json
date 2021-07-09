@@ -755,7 +755,7 @@
         },
         {
           "name": "Default To Purple Skull Trooper",
-          "icon": "https://cdn.fortniteintel.com/wp-content/uploads/2018/10/20112447/T-Variant-M-Grave-OG-Variant-L.png.webp",
+          "icon": "https://cdn.discordapp.com/attachments/820300740815093810/821640921845989376/EmbeddedImage.png",
           "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
           "itemtype": "skin",
           "itemperfect": "perfect",
@@ -826,6 +826,170 @@
               "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Skins/HW01_Red/Male_Commando_HW01.Male_Commando_HW01"
             ]
       },
+      {
+        "name": "Default To Ranger",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/cid_010_athena_commando_m/icon.png",
+        "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+        "itemtype": "skin",
+        "itemperfect": "perfect",
+        "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+        "uassetsearch1": "defaultsearch1",
+        "uassetpak1": "defaultpak",
+        "uassetoffset1": "defaultoffset1",
+        "uasset1Search": [
+            "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+            "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+        ],
+        "uasset1Replace": [
+            "/Game/Athena/Heroes/Meshes/Bodies/CP_010_Athena_Body.CP_010_Athena_Body",
+            "/Game/Athena/Heroes/Meshes/Heads/M_Med_Soldier_Head_01_ATH.M_Med_Soldier_Head_01_ATH"
+        ],
+        "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+        "uassetsearch2": "defaultsearch2",
+        "uassetoffset2": "defaultoffset2",
+        "uassetpak2": "defaultpak",
+        "uasset2Search": [
+          "\"CP_Body_Commando_F_RebirthDefaultA"
+        ],
+        "uasset2Replace": [
+          "\"CP_Body_Commando_F_RebirthDefault0"
+        ],
+        "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+        "uassetsearch3": "defaultsearch3",
+        "uassetoffset3": "defaultoffset3",
+        "uassetpak3": "defaultpak",
+        "uasset3Search": [
+          "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+          "CP_Athena_Body_M_RebirthSoldier"
+        ],
+        "uasset3Replace": [
+          "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+          "CP_Athena_Body_M_RebirthSold1er"
+        ]
+    },
+    {
+      "name": "Default To Scout",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_011_athena_commando_m/icon.png",
+      "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+      "itemtype": "skin",
+      "itemperfect": "perfect",
+      "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+      "uassetsearch1": "defaultsearch1",
+      "uassetpak1": "defaultpak",
+      "uassetoffset1": "defaultoffset1",
+      "uasset1Search": [
+          "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+          "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+      ],
+      "uasset1Replace": [
+          "/Game/Athena/Heroes/Meshes/Bodies/CP_011_Athena_Body.CP_011_Athena_Body",
+          "/Game/Athena/Heroes/Meshes/Heads/M_Med_BLK_Sydney_Head_01_ATH.M_Med_BLK_Sydney_Head_01_ATH"
+      ],
+      "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+      "uassetsearch2": "defaultsearch2",
+      "uassetoffset2": "defaultoffset2",
+      "uassetpak2": "defaultpak",
+      "uasset2Search": [
+        "\"CP_Body_Commando_F_RebirthDefaultA"
+      ],
+      "uasset2Replace": [
+        "\"CP_Body_Commando_F_RebirthDefault0"
+      ],
+      "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+      "uassetsearch3": "defaultsearch3",
+      "uassetoffset3": "defaultoffset3",
+      "uassetpak3": "defaultpak",
+      "uasset3Search": [
+        "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+        "CP_Athena_Body_M_RebirthSoldier"
+      ],
+      "uasset3Replace": [
+        "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+        "CP_Athena_Body_M_RebirthSold1er"
+      ]
+  },
+  {
+    "name": "Default To Trooper",
+    "icon": "https://fortnite-api.com/images/cosmetics/br/cid_012_athena_commando_m/icon.png",
+    "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+    "itemtype": "skin",
+    "itemperfect": "perfect",
+    "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+    "uassetsearch1": "defaultsearch1",
+    "uassetpak1": "defaultpak",
+    "uassetoffset1": "defaultoffset1",
+    "uasset1Search": [
+        "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+        "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+    ],
+    "uasset1Replace": [
+        "/Game/Athena/Heroes/Meshes/Bodies/CP_012_Athena_Body.CP_012_Athena_Body",
+        "/Game/Athena/Heroes/Meshes/Heads/M_MED_ASN_Jae_Head_01_ATH.M_MED_ASN_Jae_Head_01_ATH"
+    ],
+    "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+    "uassetsearch2": "defaultsearch2",
+    "uassetoffset2": "defaultoffset2",
+    "uassetpak2": "defaultpak",
+    "uasset2Search": [
+      "\"CP_Body_Commando_F_RebirthDefaultA"
+    ],
+    "uasset2Replace": [
+      "\"CP_Body_Commando_F_RebirthDefault0"
+    ],
+    "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+    "uassetsearch3": "defaultsearch3",
+    "uassetoffset3": "defaultoffset3",
+    "uassetpak3": "defaultpak",
+    "uasset3Search": [
+      "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+      "CP_Athena_Body_M_RebirthSoldier"
+    ],
+    "uasset3Replace": [
+      "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+      "CP_Athena_Body_M_RebirthSold1er"
+    ]
+},
+{
+  "name": "Default To Pathfinder",
+  "icon": "https://fortnite-api.com/images/cosmetics/br/cid_014_athena_commando_f/icon.png",
+  "swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_556_Athena_Commando_F_RebirthDefaultA/icon.png",
+  "itemtype": "skin",
+  "itemperfect": "perfect",
+  "uasset1": "/Game/Balance/DefaultGameDataCosmetics",
+  "uassetsearch1": "defaultsearch1",
+  "uassetpak1": "defaultpak",
+  "uassetoffset1": "defaultoffset1",
+  "uasset1Search": [
+      "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA.CP_Body_Commando_F_RebirthDefaultA",
+      "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_RebirthDefaultA.CP_Head_F_RebirthDefaultA"
+  ],
+  "uasset1Replace": [
+      "/Game/Athena/Heroes/Meshes/Bodies/CP_014_Athena_Body.CP_014_Athena_Body",
+      "/Game/Athena/Heroes/Meshes/Heads/F_MED_CAU_Armstrong_Head_01_ATH.F_MED_CAU_Armstrong_Head_01_ATH"
+  ],
+  "uasset2": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_RebirthDefaultA",
+  "uassetsearch2": "defaultsearch2",
+  "uassetoffset2": "defaultoffset2",
+  "uassetpak2": "defaultpak",
+  "uasset2Search": [
+    "\"CP_Body_Commando_F_RebirthDefaultA"
+  ],
+  "uasset2Replace": [
+    "\"CP_Body_Commando_F_RebirthDefault0"
+  ],
+  "uasset3": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+  "uassetsearch3": "defaultsearch3",
+  "uassetoffset3": "defaultoffset3",
+  "uassetpak3": "defaultpak",
+  "uasset3Search": [
+    "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldier",
+    "CP_Athena_Body_M_RebirthSoldier"
+  ],
+  "uasset3Replace": [
+    "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_RebirthSoldie5",
+    "CP_Athena_Body_M_RebirthSold1er"
+  ]
+},
         {
             "name": "Default To Dream",
             "icon": "https://fortnite-api.com/images/cosmetics/br/cid_395_athena_commando_f_shatterfly/icon.png",
