@@ -1501,6 +1501,44 @@
               "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/Parts/F_MED_Sailor_Squad_Leader.F_MED_Sailor_Squad_Leader",
               "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Sailor_Squad_Leader/Meshes/Parts/F_MED_Sailor_Squad_Leader_AnimBP.F_MED_Sailor_Squad_Leader_AnimBP_C"
             ]
-          }
+          },
+          {
+            "name": "Boogie Down To My World",
+            "itemtype": "emote",
+            "itemperfect": "perfect",
+            "swapicon": "https://fortnite-api.com/images/cosmetics/br/eid_twistwasp_t2i4j/icon.png",
+            "icon":" https://fortnite-api.com/images/cosmetics/br/eid_deflated_6poaz/icon.png",
+            "uasset1": "/Game/Athena/Items/Cosmetics/Dances/EID_BoogieDown",
+            "uassetsearch1": "BoogieDownsearch",
+            "uassetpak1": "BoogieDownPak",
+            "uassetoffset1": "BoogieDownOffset",
+            "uasset1Search": [
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMM.Emote_Boogie_Down_CMM",
+                "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF"
+            ],
+            "uasset1Replace": [
+              "/Game/Animation/Game/MainPlayer/Emotes/TwistWasp/Emote_TwistWasp_CMM_M.Emote_TwistWasp_CMM_M",
+              "/Game/Animation/Game/MainPlayer/Emotes/TwistWasp/Emote_TwistWasp_CMF_M.Emote_TwistWasp_CMF_M"
+            ]
+        },
+        {
+          "name": "Blowing Bubbles To Living Large",
+          "itemtype": "emote",
+          "itemperfect": "perfect",
+          "swapicon": "https://fortnite-api.com/images/cosmetics/br/eid_livinglarge/icon.png",
+          "icon":" https://fortnite-api.com/images/cosmetics/br/eid_deflated_6poaz/icon.png",
+          "uasset1": "/Game/Athena/Items/Cosmetics/Dances/EID_BlowingBubbles",
+          "uassetsearch1": "blowingbubbless",
+          "uassetpak1": "BoogieDownPak",
+          "uassetoffset1": "BlowingBubblesOffset",
+          "uasset1Search": [
+            "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMM_M.Emote_BlowingBubble_CMM_M",
+            "/Game/Animation/Game/MainPlayer/Emotes/BlowingBubble/Emote_BlowingBubble_CMF_M.Emote_BlowingBubble_CMF_M"
+          ],
+          "uasset1Replace": [
+            "/Game/Animation/Game/MainPlayer/Emotes/LivingLarge/Emote_LivingLarge_CMM_M.Emote_LivingLarge_CMM_M",
+            "/Game/Animation/Game/MainPlayer/Emotes/LivingLarge/Emote_LivingLarge_CMF_F.Emote_LivingLarge_CMF_F"
+          ]
+      }
     ]
 }
